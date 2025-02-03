@@ -1,0 +1,161 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    line-height: 1.6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+header h1:hover {
+    color: #ffcc00;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #666;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Image Hover Effect */
+header img:hover {
+    transform: scale(1.1);
+    border-color: #ffcc00;
+}
+
+/* Main Sections Layout */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Individual Sections */
+section {
+    background: #1c1c1c;
+    margin: 20px;
+    padding: 20px;
+    width: 45%;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Section Hover Effect */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.4);
+}
+
+/* Heading Style */
+h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    padding: 8px;
+    font-size: 1.2rem;
+    color: #ddd;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* List Item Hover Effect */
+li:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #111;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .contact {
+    text-align: center;
+}
+
+/* Link Styling */
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Link Hover Effect */
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        width: 80%;
+    }
+}
