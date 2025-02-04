@@ -3,59 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogender Rawat - Portfolio</title>
+    <title>Yogender Rawat | Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>YOGENDER RAWAT</h1>
-            <p>I love to teach :)</p> 
-            <img src="im.jpg" alt="My Photo">
-           
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-left">
+            <p>Hi, I am</p>
+            <h1>Yogender Rawat</h1>
+            <h2>aspiring full-developer || DSA || JAVA</h2>
+            <p class="description">I love teaching, solving problems, and creating amazing web experiences.</p>
+        </div>
+        <div class="hero-right">
+            <img src="im.jpg" alt="Yogender Rawat">
         </div>
     </header>
 
-    <main>
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>10th Class - Passed</li>
-                <li>12th Class - Passed</li>
-                <li>Bachelor's in Computer Applications (BCA)</li>
-                <li>Master's in Computer Applications (MCA)</li>
-            </ul>
-        </section>
-
-        <section class="skills">
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <!-- Skills Section -->
+        <div class="info-section">
             <h2>Skills</h2>
-            <ul>
+            <ul class="info-list">
                 <li>HTML, CSS, JavaScript</li>
                 <li>Java</li>
                 <li>C++</li>
+                <li>MERN</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="hobbies">
+        <!-- Education Section -->
+        <div class="info-section">
+            <h2>Education</h2>
+            <ul class="info-list">
+                <li>10th Grade - Passed</li>
+                <li>12th Grade - Passed</li>
+                <li>BCA - Bachelor of Computer Applications</li>
+                <li>MCA - Master of Computer Applications</li>
+            </ul>
+        </div>
+
+        <!-- Hobbies Section -->
+        <div class="info-section">
             <h2>Hobbies</h2>
-            <ul>
+            <ul class="info-list">
                 <li>Kabaddi</li>
                 <li>Chess</li>
                 <li>Programming</li>
             </ul>
-        </section>
-    </main>
+        </div>
 
-    <footer>
-        <section class="contact">
+        <!-- Contact Section -->
+        <div class="info-section">
             <h2>Contact</h2>
-            <ul>
-                <li><strong>Phone:</strong> 34653773</li>
-                <li><strong>Address:</strong> Rign Dkh Rn</li>
-                <li><strong>Email:</strong> <a href="mailto:rawatyr634@gmail.com">rawatyr634@gmail.com</a></li>
+            <ul class="info-list">
+                <li>Phone Number: 8569987210</li>
+                <li>Address: main bus stop matanhail(jhajjar)</li>
+                <li>Email Address: <a href="mailto:rawaty634@gmail.com">rawaty634@gmail.com</a></li>
             </ul>
-        </section>
-    </footer>
+        </div>
+    </main>
 </body>
 </html>
-
